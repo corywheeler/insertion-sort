@@ -1,4 +1,4 @@
-module.exports = function() {
+module.exports = function () {
     return {
         files: ['src/**/*/*.js'],
         tests: ['test/**/*.spec.js'],
@@ -11,5 +11,5 @@ module.exports = function() {
             global.expect = chai.expect;
             global.assert = chai.assert;
         }
-    }
-}
+    };
+};
