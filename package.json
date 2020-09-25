@@ -1,0 +1,14 @@
+{
+  "name": "inserstion-sort",
+  "version": "1.0.0",
+  "description": "A simple implementation of the insertion sort algorithm as taken from p.4 of The Algorithm Design Manual by Steven S. Skiena",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cory Wheeler",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
