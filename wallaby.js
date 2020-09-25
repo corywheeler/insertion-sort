@@ -1,7 +1,7 @@
 module.exports = function () {
     return {
-        files: ['src/**/*/*.js'],
-        tests: ['test/**/*.spec.js'],
+        files: [{pattern: 'src/**/*.js'}],
+        tests: [{pattern: 'test/**/*.spec.js'}],
         env: {
             type: 'node'
         },
