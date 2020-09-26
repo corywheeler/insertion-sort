@@ -12,9 +12,7 @@ const insertionSorter = (unsortedList) => {
 };
 
 const swap = (list, firstIndex, secondIndex) => {
-    let temp = list[firstIndex];
-    list[firstIndex] = list[secondIndex];
-    list[secondIndex] = temp;
+    [list[firstIndex], list[secondIndex]] = [list[secondIndex], list[firstIndex]];
 };
 
 module.exports = {insertionSorter, swap};
