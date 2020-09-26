@@ -8,7 +8,6 @@ const insertionSorter = (unsortedList) => {
             j = j - 1;
         }
     }
-    return unsortedList;
 };
 
 const swap = (list, firstIndex, secondIndex) => {

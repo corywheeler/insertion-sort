@@ -2,10 +2,9 @@ const {insertionSorter, swap} = require('../src/insertion-sort');
 
 describe('insertionSorter', () => {
     it('should sort an unsorted array of integers', () => {
-        let unsortedList = [3, 12, 43, 10, 100];
-        let sortedList = insertionSorter(unsortedList);
-        sortedList.should.deep.equal([3, 10, 12, 43, 100]);
-
+        let integerList = [12, 3, 43, 10, 100];
+        insertionSorter(integerList);
+        integerList.should.deep.equal([3, 10, 12, 43, 100]);
     })
 })
 
